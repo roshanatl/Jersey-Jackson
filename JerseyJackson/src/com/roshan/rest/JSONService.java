@@ -1,4 +1,4 @@
-package com.mkyong.rest;
+package com.roshan.rest;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +11,7 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-import com.mkyong.Track;
+import com.roshan.Track;
 
 @Path("/json/metallica")
 public class JSONService {
@@ -39,10 +39,10 @@ public class JSONService {
 		track.setSinger("Metallica");
 		tracks.add(track);
 
-		Track track1 = new Track();
-		track1.setTitle("Enter Sandman1");
-		track1.setSinger("Metallica1");
-		tracks.add(track1);
+//		Track track1 = new Track();
+//		track1.setTitle("Enter Sandman1");
+//		track1.setSinger("Metallica1");
+//		tracks.add(track1);
 		return tracks;
 		
 	}
